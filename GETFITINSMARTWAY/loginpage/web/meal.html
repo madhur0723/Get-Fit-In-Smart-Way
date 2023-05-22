@@ -1,0 +1,509 @@
+<html>
+<head>
+    <title>FOOD ORDER FORM</title>
+    <link rel="stylesheet" type="text/css" href="formCssFile.css">
+    <script type="text/javascript" src="scriptfile.js">
+    </script>
+</head>
+
+<body>
+    <div>
+        <h2>LIST OF FOOD ITEMS WITH THEIR MACRO-NUTRIENTS</h2>
+        <table width="40%" id="alignment" class="tbl">
+            <tbody>
+                <tr>
+                    <th>Food Items</th>
+                    <th></th>
+                    <th>calories/100gm | protein |carbohydrates | Fats</th>
+                </tr>
+                <tr>
+                    <td>Chicken breast</td>
+                    <td> - </td>
+                    <td>165 | 31g | 0g | 3.6g</td>
+                </tr>
+                <tr>
+                    <td>Chicken Thighs</td>
+                    <td> - </td>
+                    <td>177 | 24g | 0g | 8g</td>
+                </tr>
+                <tr>
+                    <td>Egg</td>
+                    <td> - </td>
+                    <td>155 | 13g | 1.1g | 11g</td>
+                </tr>
+                <tr>
+                    <td>Fried chicken</td>
+                    <td> - </td>
+                    <td>246 | 30g | 1.8g | 12g</td>
+                </tr>
+                <tr>
+                    <td>Chicken Wing</td>
+                    <td> - </td>
+                    <td>222 | 6.4g | 0g | 14.4g</td>
+                </tr>
+                <tr>
+                    <td>Fish</td>
+                    <td> - </td>
+                    <td>206 | 22g | 0g | 12g</td>
+                </tr>
+                <tr>
+                    <td>Meat</td>
+                    <td> - </td>
+                    <td>143 | 26g | 0g | 3.5g</td>
+                </tr>
+                <tr>
+                    <td>Chicken Drumstick</td>
+                    <td> - </td>
+                    <td>161 | 12.4g | 0g | 5.7g</td>
+                </tr>
+                <tr>
+                    <td>Potato</td>
+                    <td> - </td>
+                    <td>77 | 4.3g | 17g |0.2g</td>
+                </tr>
+                <tr>
+                    <td>Tomato</td>
+                    <td> - </td>
+                    <td>18 | 0.9g | 3.9 | 0.4g</td>
+                </tr>
+                <tr>
+                    <td>Peanut butter</td>
+                    <td> - </td>
+                    <td>597 | 25g | 20g | 50g</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td> - </td>
+                    <td>717 | 0.9g | 0.1g | 81g</td>
+                </tr>
+                <tr>
+                    <td>Cheese</td>
+                    <td> - </td>
+                    <td>350 | 25g | 1.3g | 33g</td>
+                </tr>
+                <tr>
+                    <td>Paneer</td>
+                    <td> - </td>
+                    <td>343 | 25g | 3.57g | 25g</td>
+                </tr>
+                <tr>
+                    <td>Ghee</td>
+                    <td> - </td>
+                    <td>897 | 0g | 0g |5g</td>
+                </tr>
+                <tr>
+                    <td>Wheat Roti</td>
+                    <td> - </td>
+                    <td>264 | 3g | 15g | 0.4g</td>
+                </tr>
+                <tr>
+                    <td>Jowar Roti</td>
+                    <td> - </td>
+                    <td>359 | 10.4g | 72.6g | 1.9g</td>
+                </tr>
+                <tr>
+                    <td>Soya Chunks</td>
+                    <td> - </td>
+                    <td>345 | 52.4g | 33g | 0.5g</td>
+                </tr>
+                <tr>
+                    <td>Mixed Salad</td>
+                    <td> - </td>
+                    <td>17 | 0.8g | 0.7g | 0.1g</td>
+                </tr>
+                <tr>
+                    <td>Rice</td>
+                    <td> - </td>
+                    <td>130 | 2.7g | 28g | 0.3g</td>
+                </tr>
+                <tr>
+                    <td>Brown Rice</td>
+                    <td> - </td>
+                    <td>111 | 2.6g | 23g | 0.9g</td>
+                </tr>
+                <tr>
+                    <td>Sprouted moong salad</td>
+                    <td> - </td>
+                    <td>99 | 6.4g | 17.5g | 0.4g</td>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td> - </td>
+                    <td>52 | 0.3g | 14g | 0.2g</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td> - </td>
+                    <td>89 | 1.1g | 23g | 0.3g</td>
+                </tr>
+                <tr>
+                    <td>Grapes</td>
+                    <td> - </td>
+                    <td>67 | 0.6g | 17g | 0.4g</td>
+                </tr>
+                <tr>
+                    <td>Oranges</td>
+                    <td> - </td>
+                    <td>47 | 0.9g | 12g | 0.1g</td>
+                </tr>
+                <tr>
+                    <td>Watermelon</td>
+                    <td> - </td>
+                    <td>30 | 0.6g | 8g | 0.2g</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <!-- <h>Calories count -->
+            <br>
+            <form name="tblform">
+                <table width="80%" id="alignment" class="tbl1">
+                    <tbody>
+                        <tr>
+                            <th>Food Item</th>
+                            <th> </th>
+                            <th>Quantity</th>
+                            <th>calories</th>
+                        </tr>
+                        <tr>
+                            <td>Item 1:</td>
+                            <td>
+                                <select id="item1">
+                                    <option value="1">--Select Item--</option> 
+                                    <option value="Chicken breast">Chicken breast</option> 
+                                    <option value="Chicken Thighs">Chicken Thighs</option> 
+                                    <option value="Egg">Egg</option>  
+                                    <option value="Fried chicken">Fried chicken</option>
+                                    <option value="Potato ">Potato </option>  
+                                    <option value="Tomato ">Tomato </option>  
+                                    <option value="Fish ">Fish </option>  
+                                    <option value="Meat ">Meat </option>  
+                                    <option value="Peanut butter ">Peanut butter </option>  
+                                    <option value="Butter">Butter </option>  
+                                    <option value="Cheese ">Cheese </option>  
+                                    <option value="Chicken Drumstick ">Chicken Drumstick </option>  
+                                    <option value="Chicken Wing">Chicken Wing </option>  
+                                    <option value="Paneer ">Paneer </option>  
+                                    <option value="Ghee ">Ghee </option>  
+                                    <option value="Wheat Roti ">Wheat Roti </option>  
+                                    <option value="Jowar Roti ">Jowar Roti </option>  
+                                    <option value="Soya Chunks ">Soya Chunks </option>  
+                                    <option value="Mixed Salad ">Mixed Salad </option>  
+                                    <option value="Rice ">Rice </option>  
+                                    <option value="Brown Rice">Brown Rice </option>  
+                                    <option value="Sprouted Moong Salad">Sprouted Moong Salad</option> 
+                                    <option value="Apple">Apple</option> 
+                                    <option value="Banana">Banana</option> 
+                                    <option value="Grapes">Grapes</option> 
+                                    <option value="Oranges">Oranges</option> 
+                                    <option value="Watermelon">Watermelon</option> 
+                </select>
+                            </td>
+                            <td><input type="number" value="0" id="q1"></td>
+                            <td><input type="text" id="p1"></td>
+                        </tr>
+                        <tr>
+                            <td>Item 2:</td>
+                            <td>
+                                <select id="item2"> 
+                <option value="1">--Select Item--</option> 
+                <option value="Chicken breast">Chicken breast</option> 
+                <option value="Chicken Thighs">Chicken Thighs</option> 
+                <option value="Egg">Egg</option>  
+                <option value="Fried chicken">Fried chicken</option>
+                <option value="Potato ">Potato </option>  
+                <option value="Tomato ">Tomato </option>  
+                <option value="Fish ">Fish </option>  
+                <option value="Meat ">Meat </option>  
+                <option value="Peanut butter ">Peanut butter </option>  
+                <option value="Butter">Butter </option>  
+                <option value="Cheese ">Cheese </option>  
+                <option value="Chicken Drumstick ">Chicken Drumstick </option>  
+                <option value="Chicken Wing">Chicken Wing </option>  
+                <option value="Paneer ">Paneer </option>  
+                <option value="Ghee ">Ghee </option>  
+                <option value="Wheat Roti ">Wheat Roti </option>  
+                <option value="Jowar Roti ">Jowar Roti </option>  
+                <option value="Soya Chunks ">Soya Chunks </option>  
+                <option value="Mixed Salad ">Mixed Salad </option>  
+                <option value="Rice ">Rice </option>  
+                <option value="Brown Rice">Brown Rice </option>  
+                <option value="Sprouted Moong Salad">Sprouted Moong Salad</option>  
+                <option value="Apple">Apple</option> 
+                <option value="Banana">Banana</option> 
+                <option value="Grapes">Grapes</option> 
+                <option value="Oranges">Oranges</option> 
+                <option value="Watermelon">Watermelon</option> 
+              </select>
+                            </td>
+                            <td><input type="number" value="0" id="q2"></td>
+                            <td><input type="text" id="p2"></td>
+                        </tr>
+                        <tr>
+                            <td>Item 3:</td>
+                            <td><select id="item3">  
+                                <option value="1">--Select Item--</option> 
+                                <option value="Chicken breast">Chicken breast</option> 
+                                <option value="Chicken Thighs">Chicken Thighs</option> 
+                                <option value="Egg">Egg</option>  
+                                <option value="Fried chicken">Fried chicken</option>
+                                <option value="Potato ">Potato </option>  
+                                <option value="Tomato ">Tomato </option>  
+                                <option value="Fish ">Fish </option>  
+                                <option value="Meat ">Meat </option>  
+                                <option value="Peanut butter ">Peanut butter </option>  
+                                <option value="Butter">Butter </option>  
+                                <option value="Cheese ">Cheese </option>  
+                                <option value="Chicken Drumstick ">Chicken Drumstick </option>  
+                                <option value="Chicken Wing">Chicken Wing </option>  
+                                <option value="Paneer ">Paneer </option>  
+                                <option value="Ghee ">Ghee </option>  
+                                <option value="Wheat Roti ">Wheat Roti </option>  
+                                <option value="Jowar Roti ">Jowar Roti </option>  
+                                <option value="Soya Chunks ">Soya Chunks </option>  
+                                <option value="Mixed Salad ">Mixed Salad </option>  
+                                <option value="Rice ">Rice </option>  
+                                <option value="Brown Rice">Brown Rice </option>  
+                                <option value="Sprouted Moong Salad">Sprouted Moong Salad</option> 
+                                <option value="Apple">Apple</option> 
+                                <option value="Banana">Banana</option> 
+                                <option value="Grapes">Grapes</option> 
+                                <option value="Oranges">Oranges</option> 
+                                <option value="Watermelon">Watermelon</option> 
+                </select>
+                            </td>
+                            <td><input type="number" value="0" id="q3"></td>
+                            <td><input type="text" id="p3"></td>
+                        </tr>
+                        <tr>
+                            <td>Item 4:</td>
+                            <td><select id="item4">   
+                                <option value="1">--Select Item--</option> 
+                                <option value="Chicken breast">Chicken breast</option> 
+                                <option value="Chicken Thighs">Chicken Thighs</option> 
+                                <option value="Egg">Egg</option>  
+                                <option value="Fried chicken">Fried chicken</option>
+                                <option value="Potato ">Potato </option>  
+                                <option value="Tomato ">Tomato </option>  
+                                <option value="Fish ">Fish </option>  
+                                <option value="Meat ">Meat </option>  
+                                <option value="Peanut butter ">Peanut butter </option>  
+                                <option value="Butter">Butter </option>  
+                                <option value="Cheese ">Cheese </option>  
+                                <option value="Chicken Drumstick ">Chicken Drumstick </option>  
+                                <option value="Chicken Wing">Chicken Wing </option>  
+                                <option value="Paneer ">Paneer </option>  
+                                <option value="Ghee ">Ghee </option>  
+                                <option value="Wheat Roti ">Wheat Roti </option>  
+                                <option value="Jowar Roti ">Jowar Roti </option>  
+                                <option value="Soya Chunks ">Soya Chunks </option>  
+                                <option value="Mixed Salad ">Mixed Salad </option>  
+                                <option value="Rice ">Rice </option>  
+                                <option value="Brown Rice">Brown Rice </option>  
+                                <option value="Sprouted Moong Salad">Sprouted Moong Salad</option>  
+                                <option value="Apple">Apple</option> 
+                                <option value="Banana">Banana</option> 
+                                <option value="Grapes">Grapes</option> 
+                                <option value="Oranges">Oranges</option> 
+                                <option value="Watermelon">Watermelon</option>  
+                </select>
+                            </td>
+                            <td><input type="number" value="0" id="q4"></td>
+                            <td><input type="text" id="p4"></td>
+                        </tr>
+                        <tr>
+                            <!-- <td>Item 5:</td>
+                            <td><select id="item5">   
+                                <option value="1">--Select Item--</option> 
+                                <option value="Chicken breast">Chicken breast</option> 
+                                <option value="Chicken Thighs">Chicken Thighs</option> 
+                                <option value="Egg">Egg</option>  
+                                <option value="Fried chicken">Fried chicken</option>
+                                <option value="Potato ">Potato </option>  
+                                <option value="Tomato ">Tomato </option>  
+                                <option value="Fish ">Fish </option>  
+                                <option value="Meat ">Meat </option>  
+                                <option value="Peanut butter ">Peanut butter </option>  
+                                <option value="Butter">Butter </option>  
+                                <option value="Cheese ">Cheese </option>  
+                                <option value="Chicken Drumstick ">Chicken Drumstick </option>  
+                                <option value="Chicken Wing">Chicken Wing </option>  
+                                <option value="Paneer ">Paneer </option>  
+                                <option value="Ghee ">Ghee </option>  
+                                <option value="Wheat Roti ">Wheat Roti </option>  
+                                <option value="Jowar Roti ">Jowar Roti </option>  
+                                <option value="Soya Chunks ">Soya Chunks </option>  
+                                <option value="Mixed Salad ">Mixed Salad </option>  
+                                <option value="Rice ">Rice </option>  
+                                <option value="Brown Rice">Brown Rice </option>  
+                                <option value="Sprouted Moong Salad">Sprouted Moong Salad</option>  
+                                <option value="Apple">Apple</option> 
+                                <option value="Banana">Banana</option> 
+                                <option value="Grapes">Grapes</option> 
+                                <option value="Oranges">Oranges</option> 
+                                <option value="Watermelon">Watermelon</option>  
+                </select>
+                            </td>
+                            <td><input type="number" value="0" id="q5"></td>
+                            <td><input type="text" id="p5"></td>
+                        </tr>
+                        <tr>
+                            <td>Item 6:</td>
+                            <td><select id="item6">   
+                                <option value="1">--Select Item--</option> 
+                                <option value="Chicken breast">Chicken breast</option> 
+                                <option value="Chicken Thighs">Chicken Thighs</option> 
+                                <option value="Egg">Egg</option>  
+                                <option value="Fried chicken">Fried chicken</option>
+                                <option value="Potato ">Potato </option>  
+                                <option value="Tomato ">Tomato </option>  
+                                <option value="Fish ">Fish </option>  
+                                <option value="Meat ">Meat </option>  
+                                <option value="Peanut butter ">Peanut butter </option>  
+                                <option value="Butter">Butter </option>  
+                                <option value="Cheese ">Cheese </option>  
+                                <option value="Chicken Drumstick ">Chicken Drumstick </option>  
+                                <option value="Chicken Wing">Chicken Wing </option>  
+                                <option value="Paneer ">Paneer </option>  
+                                <option value="Ghee ">Ghee </option>  
+                                <option value="Wheat Roti ">Wheat Roti </option>  
+                                <option value="Jowar Roti ">Jowar Roti </option>  
+                                <option value="Soya Chunks ">Soya Chunks </option>  
+                                <option value="Mixed Salad ">Mixed Salad </option>  
+                                <option value="Rice ">Rice </option>  
+                                <option value="Brown Rice">Brown Rice </option>  
+                                <option value="Sprouted Moong Salad">Sprouted Moong Salad</option>  
+                                <option value="Apple">Apple</option> 
+                                <option value="Banana">Banana</option> 
+                                <option value="Grapes">Grapes</option> 
+                                <option value="Oranges">Oranges</option> 
+                                <option value="Watermelon">Watermelon</option>  
+                </select>
+                            </td>
+                            <td><input type="number" value="0" id="q6"></td>
+                            <td><input type="text" id="p6"></td>
+                        </tr>
+                        <tr>
+                            <td>Item 7:</td>
+                            <td><select id="item7">   
+                                <option value="1">--Select Item--</option> 
+                                <option value="Chicken breast">Chicken breast</option> 
+                                <option value="Chicken Thighs">Chicken Thighs</option> 
+                                <option value="Egg">Egg</option>  
+                                <option value="Fried chicken">Fried chicken</option>
+                                <option value="Potato ">Potato </option>  
+                                <option value="Tomato ">Tomato </option>  
+                                <option value="Fish ">Fish </option>  
+                                <option value="Meat ">Meat </option>  
+                                <option value="Peanut butter ">Peanut butter </option>  
+                                <option value="Butter">Butter </option>  
+                                <option value="Cheese ">Cheese </option>  
+                                <option value="Chicken Drumstick ">Chicken Drumstick </option>  
+                                <option value="Chicken Wing">Chicken Wing </option>  
+                                <option value="Paneer ">Paneer </option>  
+                                <option value="Ghee ">Ghee </option>  
+                                <option value="Wheat Roti ">Wheat Roti </option>  
+                                <option value="Jowar Roti ">Jowar Roti </option>  
+                                <option value="Soya Chunks ">Soya Chunks </option>  
+                                <option value="Mixed Salad ">Mixed Salad </option>  
+                                <option value="Rice ">Rice </option>  
+                                <option value="Brown Rice">Brown Rice </option>  
+                                <option value="Sprouted Moong Salad">Sprouted Moong Salad</option>  
+                                <option value="Apple">Apple</option> 
+                                <option value="Banana">Banana</option> 
+                                <option value="Grapes">Grapes</option> 
+                                <option value="Oranges">Oranges</option> 
+                                <option value="Watermelon">Watermelon</option>  
+                </select>
+                            </td>
+                            <td><input type="number" value="0" id="q7"></td>
+                            <td><input type="text" id="p7"></td>
+                        </tr>
+                        <tr>
+                            <td>Item 8:</td>
+                            <td><select id="item8">   
+                                <option value="1">--Select Item--</option> 
+                                <option value="Chicken breast">Chicken breast</option> 
+                                <option value="Chicken Thighs">Chicken Thighs</option> 
+                                <option value="Egg">Egg</option>  
+                                <option value="Fried chicken">Fried chicken</option>
+                                <option value="Potato ">Potato </option>  
+                                <option value="Tomato ">Tomato </option>  
+                                <option value="Fish ">Fish </option>  
+                                <option value="Meat ">Meat </option>  
+                                <option value="Peanut butter ">Peanut butter </option>  
+                                <option value="Butter">Butter </option>  
+                                <option value="Cheese ">Cheese </option>  
+                                <option value="Chicken Drumstick ">Chicken Drumstick </option>  
+                                <option value="Chicken Wing">Chicken Wing </option>  
+                                <option value="Paneer ">Paneer </option>  
+                                <option value="Ghee ">Ghee </option>  
+                                <option value="Wheat Roti ">Wheat Roti </option>  
+                                <option value="Jowar Roti ">Jowar Roti </option>  
+                                <option value="Soya Chunks ">Soya Chunks </option>  
+                                <option value="Mixed Salad ">Mixed Salad </option>  
+                                <option value="Rice ">Rice </option>  
+                                <option value="Brown Rice">Brown Rice </option>  
+                                <option value="Sprouted Moong Salad">Sprouted Moong Salad</option>  
+                                <option value="Apple">Apple</option> 
+                                <option value="Banana">Banana</option> 
+                                <option value="Grapes">Grapes</option> 
+                                <option value="Oranges">Oranges</option> 
+                                <option value="Watermelon">Watermelon</option>  
+                </select>
+                            </td>
+                            <td><input type="number" value="0" id="q8"></td>
+                            <td><input type="text" id="p8"></td>
+                        </tr> -->
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><input type="submit" class="button" value="Total Consumption" onclick="createBill()"></td>
+                            <td><input type="reset" class="button" value="Clear"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+            <!-- Code injected by live-server -->
+            <script type="text/javascript">
+                // <![CDATA[  <-- For SVG support
+                if ('WebSocket' in window) {
+                    (function() {
+                        function refreshCSS() {
+                            var sheets = [].slice.call(document.getElementsByTagName("link"));
+                            var head = document.getElementsByTagName("head")[0];
+                            for (var i = 0; i < sheets.length; ++i) {
+                                var elem = sheets[i];
+                                var parent = elem.parentElement || head;
+                                parent.removeChild(elem);
+                                var rel = elem.rel;
+                                if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                    var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                    elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                                }
+                                parent.appendChild(elem);
+                            }
+                        }
+                        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                        var address = protocol + window.location.host + window.location.pathname + '/ws';
+                        var socket = new WebSocket(address);
+                        socket.onmessage = function(msg) {
+                            if (msg.data == 'reload') window.location.reload();
+                            else if (msg.data == 'refreshcss') refreshCSS();
+                        };
+                        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                            console.log('Live reload enabled.');
+                            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                        }
+                    })();
+                } else {
+                    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+                }
+                // ]]>
+            </script>
+
+        </h>
+    </div>
+</body>
+
+</html>

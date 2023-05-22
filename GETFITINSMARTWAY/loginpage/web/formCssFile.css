@@ -1,0 +1,52 @@
+th {
+    text-align: left;
+}
+.non-veg{
+    text-decoration-color: red;
+}
+
+body {
+    font-size: 20pt;
+    background-image: url("https://media.istockphoto.com/photos/flat-lay-with-different-vegetables-fruits-berries-nuts-spices-herbs-picture-id1333699795?k=20&m=1333699795&s=612x612&w=0&h=R8siQ3_fXOXLcPWtEPVVdz-b57AOKwFtOAzV4hxqG3Q=");
+    
+    background-size:cover;
+    background-position:center;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border:4px solid;
+    border-color: black;
+    transition: all 0.3s;
+}
+.button:hover{
+    background-color:royalblue ;
+    box-shadow: 0 0.9em 0.9em -0.8em #d95ae6 ;
+    transform: translateY(-0.25em);
+}
+
+div {
+    text-align: center;
+    border-style: solid;
+    margin-left: 300px;
+    width: 60%
+}
+
+#alignment {
+    margin-left: auto;
+    margin-right: auto;
+}
+.tbl{
+    font-size:20px;
+}
+.tbl1{
+    font-size:2rem;
+}
